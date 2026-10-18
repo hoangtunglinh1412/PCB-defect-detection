@@ -1,0 +1,18 @@
+# Bỏ qua dữ liệu thô và nhãn (Không ai push dataset lên GitHub)
+data/images/
+data/labels/
+
+# Bỏ qua các file trọng số mô hình quá nặng
+*.pt
+*.pth
+
+# Bỏ qua rác của Python và môi trường ảo
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Bỏ qua thư mục runs (Trừ phi bạn muốn giữ lại 1 ảnh demo cho README)
+runs/detect/
+runs/predict_sahi/
+!runs/predict_sahi/sahi_result.png
